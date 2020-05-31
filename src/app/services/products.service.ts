@@ -12,7 +12,7 @@ export class ProductsService {
   loading = true;
 
   constructor(private http: HttpClient) {
-    // this.loadProducts();
+    this.loadProducts();
   }
 
   private loadProducts() {
